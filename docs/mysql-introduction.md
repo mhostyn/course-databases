@@ -1,4 +1,27 @@
 # MySQL introduction
+## Accessing your DBMS
+```sql
+CMD>mysql -U root
+```
+```
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 5
+Server version: 10.1.10-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2015, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]>
+```
+
+Aditional options*
+
+```sql
+CMD>mysql database_name* -U user -P user_password*
+```
+
+## Using your DBMS
 
 ```sql
 SHOW DATABASES
