@@ -93,6 +93,8 @@ PHP Data Objects support two types of placeholders. Named and unnamed placeholde
     All data inserted by the user of an website (eg: filling in a form, search text,
     or anything other that is not hard-coded into PHP) is considered unsafe!
 
+![alt text](https://imgs.xkcd.com/comics/exploits_of_a_mom.png "Litle Bobby Tables")
+
 ```php
 # no placeholders - ripe for SQL Injection!
 $STH = $DBH->("INSERT INTO folks (name, addr, city) values ($name, $addr, $city)");
